@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<title>ToDo приложение</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="display-4 mb-2 typed-text">
+			<h1></h1>
+			<h4 class="task-list"></h4>
+		</div>
+
+		<div class="mb-4">
+			<ul id="tasksList" class="list-group list-group-flush"  >
+				
+			</ul>
+		</div>
+
+		<div class="card bg-light" >
+			<div class="card-header"><p>Добавить новую задачу</p></div>
+			<div class="card-body">
+				<form id="form">
+					<div class="form-group">
+						<input type="text" class="form-control" id="taskInput" placeholder="Текст задачи" required>
+						<small id="emailHelp" class="form-text text-muted">Что делаем, сколько времени тратим, какой результат получаем.</small>
+					</div>
+					<button type="submit" class="btnBack">Добавить</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="js/animation.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
